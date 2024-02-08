@@ -1,0 +1,7 @@
+{
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^20.11.16"
+  }
+}
