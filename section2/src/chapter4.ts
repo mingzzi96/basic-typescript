@@ -26,6 +26,8 @@ let user2: User = {
 };
 
 // 인덱스 시그니쳐
+// key와 value값의 타입을 위반하지만 않으면 모든 객체를 허용하는 타입이다.
+// 그래서 객체가 프로퍼티없이 비워져있어도
 type countryCodes = {
   [key: string]: string;
 };
