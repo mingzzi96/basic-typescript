@@ -13,5 +13,12 @@ let doubleArr = [
 let tup1 = [1, 2];
 // tup1 = [1, 2, 3]; 길이를 벗어나면 안됨
 // tup1 = ["hello", 1]; 오직 number 타입만 허용됨
-let upt2 = ["1", 2, true];
+let tup2 = ["1", 2, true];
+const users = [
+    ["권지민", 1],
+    ["권밍밍", 2],
+    ["밍밍이", 3],
+    ["밍찌", 4],
+    //   [5, "오류이름"],
+];
 export {};
