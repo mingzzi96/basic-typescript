@@ -13,4 +13,16 @@ let user2 = {
     birth: 961030,
     location: "Seoul",
 };
+let countryCodes = {
+    Korea: "ko",
+    UnitedStates: "us",
+    UnitedKingdom: "uk",
+    Japan: "jp",
+};
+let countryNumberCodes = {
+    Korea: 1,
+    UnitedStates: 2,
+    UnitedKingdom: 3,
+    Japan: 4,
+};
 export {};
