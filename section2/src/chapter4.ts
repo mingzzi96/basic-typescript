@@ -24,3 +24,23 @@ let user2: User = {
   birth: 961030,
   location: "Seoul",
 };
+
+// 인덱스 시그니쳐
+type countryCodes = {
+  [key: string]: string;
+};
+let countryCodes: countryCodes = {
+  Korea: "ko",
+  UnitedStates: "us",
+  UnitedKingdom: "uk",
+  Japan: "jp",
+};
+type countryNumberCodes = {
+  [key: string]: number;
+};
+let countryNumberCodes: countryNumberCodes = {
+  Korea: 1,
+  UnitedStates: 2,
+  UnitedKingdom: 3,
+  Japan: 4,
+};
